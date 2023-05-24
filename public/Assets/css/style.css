@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px red solid; */
+    list-style: none;
+    color: black;
+    list-style: none;
+}
+
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+
+.logo {
+    width: 200px;
+    margin: auto;
+    margin-left: 50px;
+}
+
+.img-slide {
+    width: 100%;
+    height: 600px;
+}
+
+.ojk {
+    margin-top: 20px;
+    padding: 10px;
+}
+.ojk img {
+    width: 150px;
+    margin: 20px;
+}
+.ojk h6 {
+    padding: 10px;
+}
+
+.col-4 ul {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.col-4 h2 {
+    font-size: 30px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+ul li {
+    line-height: 50px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.call {
+    padding: 10px;
+    margin-top: 20px;
+}
+.call img {
+    width: 150px;
+}
+.call iframe {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer {
+    background: rgb(223, 223, 223);
+}
+
+.bumper {
+    min-height: 500px;
+}
+.item,
+.item2,
+.item3,
+.item4 {
+    border-radius: 10px;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #1c57b5;
+    margin: 40px 10px;
+    cursor: pointer;
+}
+
+.containergambar5 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.containergambar5 img {
+    width: 138px;
+    height: 138px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0.5rem;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.cardputih {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    padding: 1rem;
+}
+
+.cardputihtengah {
+    max-height: 500px;
+}
+
+/* horizontal separator */
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* justify text */
+.justifytext {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.targetbox {
+    margin: 6% 10%;
+    background: transparent;
+}
+
+/* horizontal slider */
+.wrapper {
+    max-height: 492px;
+    border: 1 px solid grey;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+/* Wrapper */
+.wrapper .item,
+.wrapper .item2,
+.wrapper .item3 {
+    min-width: 290px;
+    height: 352px;
+    line-height: 100px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* Wrapper2 */
+.wrapper2 .item,
+.wrapper2 .item2,
+.wrapper2 .item3,
+.wrapper2 .item4 {
+    min-width: 290px;
+    height: 352px;
+    line-height: 100px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.item {
+    background: url("../img/gadaiemas.jpeg");
+}
+
+.item2 {
+    background: url("../img/gadainonemas.jpg");
+}
+
+.item3 {
+    background: url("../img/gadaikendaraan.png");
+}
+
+.item4 {
+    background: url("../img/tabunganemas.jpg");
+}
+.wrapper .item h4,
+.wrapper .item2 h4,
+.wrapper .item3 h4,
+.wrapper .item4 h4 {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.wrapper .item p,
+.wrapper .item2 p,
+.wrapper .item3 p,
+.wrapper .item4 p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.wrapper2 .item h4,
+.wrapper2 .item2 h4,
+.wrapper2 .item3 h4,
+.wrapper2 .item4 h4 {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+}
+.wrapper2 .item p,
+.wrapper2 .item2 p,
+.wrapper2 .item3 p,
+.wrapper2 .item4 p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+.gambarrelated {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0.81%,
+        rgba(0, 0, 0, 0.71) 100%
+    );
+}
+
+.section-why-us {
+    min-height: 350px;
+    margin-bottom: 100px;
+}
+
+.section-why-us h2 {
+    padding-top: 31px;
+}
+
+.section-why-us .card-why {
+    margin-top: 82px;
+    margin-bottom: 20px;
+    height: 277px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.section-why-us .card-why .title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.row .form {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(223, 217, 217);
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.form .form-control {
+    margin: 20px;
+    padding-top: 10px;
+}
+/* .form .btn {
+    width: 200px;
+    height: 45px;
+    margin-top: 15px;
+    background-color: rgb(168, 255, 168);
+    color: black;
+} */
+.see .btn {
+    width: 200px;
+    height: 45px;
+    margin-top: 15px;
+    background-color: rgb(168, 255, 168);
+    color: black;
+}
+.btn a {
+    color: black;
+}
+.see .btn:hover a {
+    color: white;
+}
