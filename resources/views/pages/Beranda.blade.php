@@ -123,7 +123,7 @@
 
 {{-- cabang --}}
 <div class="container ">
-  
+
   <div class="card shadow mt-3">
     <div class="card-header">
         <h6>Daftar Kantor Pegadaian</h6>
@@ -145,7 +145,7 @@
                         <td>0213155550</td>
                         <td>-</td>
                         <td><a href="https://goo.gl/maps/7dFTUYqJLs7sqtB99">Tinjau Lokasi</a></td>
-                      
+
                     </tr>
                     <tr>
                         <td>Wilayah 1 Medan</td>
@@ -171,7 +171,7 @@
                         <td>-</td>
                         <td><a href="https://goo.gl/maps/bRobExxQB1drvvP18">Tinjau Lokasi</a></td>
                     </tr>
-                   
+
                 </tbody>
             </table>
         </div>
