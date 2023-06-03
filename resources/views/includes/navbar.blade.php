@@ -19,7 +19,7 @@
             <a class="nav-link" href="">Cabang</a>
           </li>
         </ul>
-        <button class="btn btn-outline-success me-5" type="submit">Login</button>
+        <button class="btn btn-outline-success me-5" type="submit"><a href="{{route('login')}}"> Login</a></button>
       </div>
     </div>
   </nav>

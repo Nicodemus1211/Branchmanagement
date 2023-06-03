@@ -63,9 +63,7 @@ Kantor CP BOJONGSARI
                       <h4>Recommend</h4>
                       <h2>Most Product Pegadaian</h2>
                     </div>
-                    <div class="col-6 text-end px-5">
-                      <button>See all</button>
-                    </div>
+
                   </div>
 
 
