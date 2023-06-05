@@ -54,6 +54,22 @@ Kantor CP BOJONGSARI
                     <p>Depok, Jawa Barat</p>
                     <p>Telp. 021518614588 HP. 0811193073333</p>
 
+
+                </div>
+                {{-- <div class="col-4 mb-3 justify-conter-center">
+                    <iframe src="https://www.google.com/maps/place/Pegadaian+Cabang+Bojongsari/@-6.4072543,106.734104,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69e8beb49782df:0xed63f598d748137f!8m2!3d-6.4072543!4d106.7366789!16s%2Fg%2F1q5bmcyt0?entry=ttu"
+                    width="100%" height="200" style="border:5;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div> --}}
+            </div>
+            <div class="col-4 mb-3 d-relative ">
+                <div class="call">
+
+                    <iframe src="c"
+                    width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <br>
+
                 </div>
             </div>
             <div class="conten">
@@ -63,9 +79,7 @@ Kantor CP BOJONGSARI
                       <h4>Recommend</h4>
                       <h2>Most Product Pegadaian</h2>
                     </div>
-                    <div class="col-6 text-end px-5">
-                      <button>See all</button>
-                    </div>
+
                   </div>
 
 

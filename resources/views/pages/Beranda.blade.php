@@ -160,6 +160,114 @@
                         <td><a href="https://goo.gl/maps/6Xe92XSn4LB2TM4w7">Tinjau Lokasi</a></td>
                     </tr>
                     <tr>
+                        <td>Wilayah 1 Medan</td>
+                        <td>0614567247</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/eCza1agneHApW9MC8">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wilayah 2 Pekanbaru</td>
+                        <td>076139195</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/6Xe92XSn4LB2TM4w7">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wilayah 1 Medan</td>
+                        <td>0614567247</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/eCza1agneHApW9MC8">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wilayah 2 Pekanbaru</td>
+                        <td>076139195</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/6Xe92XSn4LB2TM4w7">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wilayah 1 Medan</td>
+                        <td>0614567247</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/eCza1agneHApW9MC8">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wilayah 2 Pekanbaru</td>
+                        <td>076139195</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/6Xe92XSn4LB2TM4w7">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wilayah 1 Medan</td>
+                        <td>0614567247</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/eCza1agneHApW9MC8">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wilayah 2 Pekanbaru</td>
+                        <td>076139195</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/6Xe92XSn4LB2TM4w7">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wilayah 1 Medan</td>
+                        <td>0614567247</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/eCza1agneHApW9MC8">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wilayah 2 Pekanbaru</td>
+                        <td>076139195</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/6Xe92XSn4LB2TM4w7">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wilayah 1 Medan</td>
+                        <td>0614567247</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/eCza1agneHApW9MC8">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wilayah 2 Pekanbaru</td>
+                        <td>076139195</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/6Xe92XSn4LB2TM4w7">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wilayah 1 Medan</td>
+                        <td>0614567247</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/eCza1agneHApW9MC8">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wilayah 2 Pekanbaru</td>
+                        <td>076139195</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/6Xe92XSn4LB2TM4w7">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wilayah 1 Medan</td>
+                        <td>0614567247</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/eCza1agneHApW9MC8">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wilayah 2 Pekanbaru</td>
+                        <td>076139195</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/6Xe92XSn4LB2TM4w7">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wilayah 1 Medan</td>
+                        <td>0614567247</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/eCza1agneHApW9MC8">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wilayah 2 Pekanbaru</td>
+                        <td>076139195</td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/6Xe92XSn4LB2TM4w7">Tinjau Lokasi</a></td>
+                    </tr>
+                    <tr>
                         <td>Wilayah 3 Palembang</td>
                         <td>0711361529</td>
                         <td>-</td>
@@ -171,7 +279,12 @@
                         <td>-</td>
                         <td><a href="https://goo.gl/maps/bRobExxQB1drvvP18">Tinjau Lokasi</a></td>
                     </tr>
-
+                    <tr>
+                        <td>Wilayah 8 Jakarta 1 <a href="{{route("cpbojongsari")}}">CP BOJONGSARI</a></td>
+                        <td></td>
+                        <td>-</td>
+                        <td><a href="https://goo.gl/maps/bRobExxQB1drvvP18">Tinjau Lokasi</a></td>
+                    </tr>
                 </tbody>
             </table>
         </div>
