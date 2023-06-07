@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>@yield('content')</title>
+    <title>@yield('title')</title>
     
     @include('Admin.include.style')
   </head>

@@ -9,6 +9,7 @@ use App\Http\Controllers\ProductUPCjakartaController;
 use App\Http\Controllers\CPbojongsariController;
 use App\Http\Controllers\loginController;
 use App\Http\Controllers\ProductGEmasController;
+use App\Http\Controllers\tabelController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,8 +27,11 @@ use App\Http\Controllers\ProductGEmasController;
 // });
 
 Route::get('/login', [loginController::class, 'login']) -> name('login');
-Route::get('/Beranda', [IndexController::class, 'Beranda']) ->name('Beranda');
 Route::get('/index', [AdminController::class, 'index']) ->name ('index');
+Route::get('/Beranda', [IndexController::class, 'Beranda']) ->name('Beranda');
+Route::get('/Tabel', [tabelController::class, 'Tabel']) -> name('Tabel');
+
+
 Route::get('/productemas', [ProductemasController::class, 'productemas'])->name('productemas');
 Route::get('/ProductupcJakarta', [ProductUPCjakartaController::class, 'ProductupcJakarta'])->name('ProductupcJakarta');
 Route::get('/ProductcpDepok', [ProductCPdepokController::class, 'ProductcpDepok'])->name('ProductcpDepok');
