@@ -44,7 +44,11 @@
 
         <!-- Nav Item - Tables -->
         <li class="nav-item">
+<<<<<<< HEAD
           <a class="nav-link" href="{{route('tableadmin')}}">
+=======
+          <a class="nav-link" href="">
+>>>>>>> a5fc8261a949260b033c01e86f711a0465cfdbc3
             <i class="fas fa-fw fa-table"></i>
             <span>Tables</span></a
           >
@@ -67,6 +71,10 @@
       <button class="rounded-circle border-0" id="sidebarToggle"></button>
     </div>
 
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> a5fc8261a949260b033c01e86f711a0465cfdbc3
   </ul>
   <!-- End of Sidebar -->

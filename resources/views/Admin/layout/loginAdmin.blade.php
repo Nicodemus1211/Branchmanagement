@@ -7,13 +7,22 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
+<<<<<<< HEAD
     <title>@yield('title')</title>
 
+=======
+    <title>@yield('content')</title>
+    
+>>>>>>> a5fc8261a949260b033c01e86f711a0465cfdbc3
     @include('Admin.include.style')
   </head>
 
   <body class="bg-gradient-primary">
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> a5fc8261a949260b033c01e86f711a0465cfdbc3
     @yield('content')
 
     @include('Admin.include.script')
