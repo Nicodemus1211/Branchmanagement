@@ -8,22 +8,45 @@
 <div class="container mx-5 my-5 mt-5">
 <h4>Form Produk</h4>
 <form>
+
+    <div class="drag-area mt-5 p-3">
+        <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+        <header>Drag & Drop to Upload File</header>
+        <span>or</span>
+        <button>Browser File</button>
+        <input type="file"hidden>
+    </div>
+
     <div class="mb-3 mt-4">
-      <label for="exampleInputkodeproduk" class="form-label">Kode Produk</label>
+      <label for="exampleInputkodeproduk" class="form-label" placeholder = "Kode Produk"></label>
       <input type="text" class="form-control" id="exampleInputkodeproduk" aria-describedby="kodeProduk">
     </div>
     <div class="mb-3">
       <label for="exampleInputnamaproduk" class="form-label">Nama Produk</label>
       <input type="text" class="form-control" id="exampleInputnamaproduk">
     </div>
-    <div class="mb-3 ">
-        <label for="exampleInputtglditambahkan" class="form-label">Tanggal Di Tambahkan</label>
-        <input type="text" class="form-control" id="exampleInputtglditambahkan" aria-describedby="tglditambahkan">
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputtgledit" class="form-label">Tanggal Di Edit</label>
-        <input type="text" class="form-control" id="exampleInputtgledit">
-      </div>
+     <div class="mb-3">
+                                <label class="form-label">Tanggal Di Tambahkan</label>
+                                <input type="date" class="form-control  @error('tgl_ditambah') is-invalid @enderror"
+                                    name="tgl_ditambah">
+                                @error('tgl_ditambah')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+
+       <div class="mb-3">
+                                <label class="form-label">Tanggal Di Edit</label>
+                                <input type="date" class="form-control  @error('tgl_edit') is-invalid @enderror"
+                                    name="tgl_edit">
+                                @error('tgl_edit')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+
       <div class="mb-3 ">
         <label for="exampleInputcreateby" class="form-label">Create by</label>
         <input type="text" class="form-control" id="exampleInputcreateby" aria-describedby="createby">

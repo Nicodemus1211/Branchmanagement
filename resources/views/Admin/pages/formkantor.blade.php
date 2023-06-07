@@ -27,14 +27,40 @@
         <div class="col-md-6 mt-3">
           <label for="validationDefault03" class="form-label">Tanggal Operasi</label>
           <input type="text" class="form-control" id="validationDefault03" required>
+
+            <label class="form-label">Tanggal Operasi</label>
+            <input type="date" class="form-control  @error('tgl_lahir') is-invalid @enderror"
+                name="tgl_lahir">
+            @error('tgl_lahir')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+            @enderror
+
         </div>
         <div class="col-md-3 mt-3">
-          <label for="validationDefault04" class="form-label">Tanggal Di Tambahkan</label>
-          <input type="text" class="form-control" id="validationDefault05" required>
+
+            <label class="form-label">Tanggal Di Tambahkan</label>
+            <input type="date" class="form-control  @error('tgl_lahir') is-invalid @enderror"
+                name="tgl_lahir">
+            @error('tgl_lahir')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+            @enderror
+
         </div>
         <div class="col-md-3 mt-3">
-          <label for="validationDefault05" class="form-label">Tanggal Di Update</label>
-          <input type="text" class="form-control" id="validationDefault05" required>
+
+            <label class="form-label">Tanggal Di Update</label>
+            <input type="date" class="form-control  @error('tgl_lahir') is-invalid @enderror"
+                name="tgl_lahir">
+            @error('tgl_lahir')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+            @enderror
+
         </div>
 
         <div class="col-md-4 mt-3">

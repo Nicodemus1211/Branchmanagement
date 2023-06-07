@@ -56,6 +56,75 @@ Kantor UPC ratu jaya
 
                 </div>
             </div>
+            <div class="conten">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-6 most-text px-5">
+                      <h4>Recommend</h4>
+                      <h2>Most Product Pegadaian</h2>
+                    </div>
+
+                  </div>
+
+
+                        <section class="cards">
+                            <article class="card card--1">
+                                <div class="card__img"></div>
+                                <a href="#" class="card_link">
+                                    <div class="card__img--hover"></div>
+                                </a>
+                                <div class="card__info">
+                                    <span class="card__category"> PINJAMAN GADAI </span>
+                                    <h3 class="card__title">Gadai Emas</h3>
+                                    <span class="card__by"> To <a href="https://www.pegadaian.co.id/produk/gadai-emas" class="card__author" title="author">MORE ... </a></span>
+                                </div>
+                            </article>
+
+
+                            <article class="card card--2">
+                                <div class="card__img"></div>
+                                <a href="#" class="card_link">
+                                    <div class="card__img--hover"></div>
+                                </a>
+                                <div class="card__info">
+                                    <span class="card__category"> LAYANAN JASA</span>
+                                    <h3 class="card__title">Tabungan Emas</h3>
+                                    <span class="card__by"> To <a href="https://www.pegadaian.co.id/produk/tabungan-emas" class="card__author" title="author">MORE ... </a></span>
+                                </div>
+                            </article>
+
+                            <article class="card card--3">
+                                    <div class="card__img"></div>
+                                    <a href="#" class="card_link">
+                                    <div class="card__img--hover"></div>
+                                    </a>
+                                    <div class="card__info">
+                                        <span class="card__category"> PINJAMAN NON GADAI </span>
+                                        <h3 class="card__title">Cicil Kendaraan</h3>
+                                        <span class="card__by"> To <a href="https://www.pegadaian.co.id/produk/cicil-kendaraan" class="card__author" title="author">MORE ... </a></span>
+                                    </div>
+                            </article>
+
+                            <article class="card card--4">
+                                    <div class="card__img"></div>
+                                    <a href="#" class="card_link">
+                                    <div class="card__img--hover"></div>
+                                    </a>
+                                    <div class="card__info">
+                                    <span class="card__category"> PINJAMAN NON GADAI</span>
+                                    <h3 class="card__title">Pegadaian KUR Syariah</h3>
+                                    <span class="card__by"> To <a href="https://www.pegadaian.co.id/produk/pegadaian-kur-syariah" class="card__author" title="author">MORE ... </a></span>
+                                    </div>
+                            </article>
+                        </section>
+
+
+
+
+
+                  </div>
+                </div>
+              </div>
 
 
         </div>

@@ -19,6 +19,7 @@
     margin-right: auto;
     margin-left: auto;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -41,10 +42,12 @@
     margin-top: 20px;
     padding: 10px;
 }
+
 .ojk img {
     width: 150px;
     margin: 20px;
 }
+
 .ojk h6 {
     padding: 10px;
 }
@@ -56,24 +59,28 @@
 
 .col-4 h2 {
     font-size: 30px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 ul li {
     line-height: 50px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .call {
     padding: 10px;
     margin-top: 20px;
 }
+
 .call img {
     width: 150px;
 }
+
 .call iframe {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .footer {
     background: rgb(223, 223, 223);
 }
@@ -81,6 +88,7 @@ ul li {
 .bumper {
     min-height: 500px;
 }
+
 .item,
 .item2,
 .item3,
@@ -122,7 +130,9 @@ ul li {
     max-height: 500px;
 }
 
+
 /* horizontal separator */
+
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -130,7 +140,9 @@ hr {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+
 /* justify text */
+
 .justifytext {
     text-align: justify;
     text-justify: inter-word;
@@ -141,7 +153,9 @@ hr {
     background: transparent;
 }
 
+
 /* horizontal slider */
+
 .wrapper {
     max-height: 492px;
     border: 1 px solid grey;
@@ -150,7 +164,9 @@ hr {
     overflow-y: hidden;
 }
 
+
 /* Wrapper */
+
 .wrapper .item,
 .wrapper .item2,
 .wrapper .item3 {
@@ -164,7 +180,9 @@ hr {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
+
 /* Wrapper2 */
+
 .wrapper2 .item,
 .wrapper2 .item2,
 .wrapper2 .item3,
@@ -194,6 +212,7 @@ hr {
 .item4 {
     background: url("../img/tabunganemas.jpg");
 }
+
 .wrapper .item h4,
 .wrapper .item2 h4,
 .wrapper .item3 h4,
@@ -215,6 +234,7 @@ hr {
     font-weight: 600;
     font-size: 20px;
 }
+
 .wrapper2 .item h4,
 .wrapper2 .item2 h4,
 .wrapper2 .item3 h4,
@@ -226,6 +246,7 @@ hr {
     font-size: 20px;
     color: white;
 }
+
 .wrapper2 .item p,
 .wrapper2 .item2 p,
 .wrapper2 .item3 p,
@@ -237,17 +258,14 @@ hr {
     font-size: 20px;
     color: white;
 }
+
 .gambarrelated {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0) 0.81%,
-        rgba(0, 0, 0, 0.71) 100%
-    );
+    background: linear-gradient( 180deg, rgba(0, 0, 0, 0) 0.81%, rgba(0, 0, 0, 0.71) 100%);
 }
 
 .section-why-us {
@@ -284,10 +302,13 @@ hr {
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
+
 .form .form-control {
     margin: 20px;
     padding-top: 10px;
 }
+
+
 /* .form .btn {
     width: 200px;
     height: 45px;
@@ -295,6 +316,7 @@ hr {
     background-color: rgb(168, 255, 168);
     color: black;
 } */
+
 .see .btn {
     width: 200px;
     height: 45px;
@@ -302,9 +324,66 @@ hr {
     background-color: rgb(168, 255, 168);
     color: black;
 }
+
 .btn a {
     color: black;
 }
+
 .see .btn:hover a {
     color: white;
+}
+
+.drag-area {
+    /* margin: 0;
+    padding: 0; */
+    border: 2px dashed #fff;
+    box-sizing: border-box;
+    display: flex;
+    height: 500px;
+    width: 700px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drag-area .active {
+    border: 2px solid #fff;
+}
+
+.drag-area .icon {
+    font-size: 100px;
+    color: #494949;
+}
+
+.drag-area header {
+    font-size: 30px;
+    font-weight: 500;
+    color: #494949;
+}
+
+.drag-area span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #494949;
+    margin: 10px 0 15px 0;
+}
+
+.drag-area button {
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: aquamarine;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.drag-area img {
+    height: 100%;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
 }

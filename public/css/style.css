@@ -449,6 +449,61 @@ label .fa {
     margin-top: 50px;
 }
 
+.drag-area {
+    /* margin: 0;
+    padding: 0; */
+    border: 2px dashed #fff;
+    box-sizing: border-box;
+    display: flex;
+    height: 500px;
+    width: 700px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drag-area .active {
+    border: 2px solid #fff;
+}
+
+.drag-area .icon {
+    font-size: 100px;
+    color: #494949;
+}
+
+.drag-area header {
+    font-size: 30px;
+    font-weight: 500;
+    color: #494949;
+}
+
+.drag-area span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #494949;
+    margin: 10px 0 15px 0;
+}
+
+.drag-area button {
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: aquamarine;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.drag-area img {
+    height: 100%;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
 
 /*
 .content {

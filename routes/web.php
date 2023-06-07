@@ -35,7 +35,8 @@ use App\Http\Controllers\UPCrayapitaraController;
 use App\Http\Controllers\UPCsawanganController;
 use App\Http\Controllers\UPCsukamajuController;
 use App\Http\Controllers\UPCtaposController;
-
+use App\Http\Controllers\DaftarKantorController;
+use App\Http\Controllers\TableadminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -85,4 +86,6 @@ Route::get('/upcratujaya', [UPCratujayaController::class, 'upcratujaya'])->name(
 Route::get('/upcrayapitara', [UPCrayapitaraController::class, 'upcrayapitara'])->name('upcrayapitara');
 Route::get('/upcsawangan', [UPCsawanganController::class, 'upcsawangan'])->name('upcsawangan');
 Route::get('/upcsukamaju', [UPCsukamajuController::class, 'upcsukamaju'])->name('upcsukamaju');
-Route::get('/upctapos', [UPCgandulController::class, 'upcgandul'])->name('upcgandul');
+Route::get('/upctapos', [UPCtaposController::class, 'upctapos'])->name('upctapos');
+Route::get('/daftarkantor', [DaftarKantorController::class, 'daftarkantor'])->name('daftarkantor');
+Route::get('/tableadmin', [TableadminController::class, 'tableadmin'])->name('tableadmin');

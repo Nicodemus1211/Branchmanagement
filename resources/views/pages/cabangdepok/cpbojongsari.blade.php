@@ -63,7 +63,7 @@ Kantor CP BOJONGSARI
 
                 </div> --}}
             </div>
-            <div class="col-4 mb-3 d-relative ">
+            {{-- <div class="col-4 mb-3 d-relative ">
                 <div class="call">
 
                     <iframe src="c"
@@ -71,7 +71,7 @@ Kantor CP BOJONGSARI
                     <br>
 
                 </div>
-            </div>
+            </div> --}}
             <div class="conten">
                 <div class="container">
                   <div class="row">
