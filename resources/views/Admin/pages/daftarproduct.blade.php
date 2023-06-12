@@ -25,7 +25,7 @@
                 </div>
               </form>
             <a href="{{ route('tableproduct') }}" class="btn btn-sm btn-primary" style="float: right">
-                Tambah Data
+                Datatable Product
             </a>
         </div>
 

@@ -24,9 +24,7 @@
           </div>
         </div>
 
-        <div class="col-md-6 mt-3">
-          <label for="validationDefault03" class="form-label">Tanggal Operasi</label>
-          <input type="text" class="form-control" id="validationDefault03" required>
+        <div class="col-md-3 mt-3">
 
             <label class="form-label">Tanggal Operasi</label>
             <input type="date" class="form-control  @error('tgl_lahir') is-invalid @enderror"
@@ -63,20 +61,32 @@
 
         </div>
 
-        <div class="col-md-4 mt-3">
+        <div class="col-md-4 mt-5">
             <label for="validationDefault01" class="form-label">Kantor Induk</label>
             <input type="text" class="form-control" id="validationDefault01" value="" required>
           </div>
-          <div class="col-md-4 mt-3">
-            <label for="validationDefault2 " class="form-label">Status</label>
+          <div class="col-md-4 mt-5">
+            <label for="validationDefault02" class="form-label">Status</label>
             <input type="text" class="form-control" id="validationDefault02" value="" required>
           </div>
-          <div class="col-md-4 mt-3">
-            <label for="validationDefault021 " class="form-label">Level</label>
+          <div class="col-md-4 mt-5">
+            <label for="validationDefault02" class="form-label">Produk Diterima</label>
             <input type="text" class="form-control" id="validationDefault02" value="" required>
-            <div class="input-group">
-            </div>
           </div>
+
+        <div class="col-md-4 mt-5">
+            <label for="validationDefault01" class="form-label">Nama NPWP</label>
+            <input type="text" class="form-control" id="validationDefault01" value="" required>
+          </div>
+          <div class="col-md-4 mt-5">
+            <label for="validationDefault02" class="form-label">No NPWP</label>
+            <input type="text" class="form-control" id="validationDefault02" value="" required>
+          </div>
+          <div class="col-md-4 mt-5">
+            <label for="validationDefault02" class="form-label">KODE KANTOR PAJAK</label>
+            <input type="text" class="form-control" id="validationDefault02" value="" required>
+          </div>
+
 
 
             <div class="col-md-6 mt-3">
