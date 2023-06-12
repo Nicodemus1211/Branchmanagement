@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class FormProdukcontroller extends Controller
+class FormproductController extends Controller
 {
-    public function Formproduk () {
+    public function Formproduct () {
         return view('Admin.pages.formproduk');
         }
 }

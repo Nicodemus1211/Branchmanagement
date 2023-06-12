@@ -77,11 +77,11 @@
       <div class="col-xl-8 col-lg-7">
         <div class="card shadow mb-4">
           <!-- Card Header - Dropdown -->
-<<<<<<< HEAD
+{{-- <<<<<<< HEAD
 
 =======
-         
->>>>>>> a5fc8261a949260b033c01e86f711a0465cfdbc3
+
+>>>>>>> a5fc8261a949260b033c01e86f711a0465cfdbc3 --}}
           <!-- Card Body -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
@@ -110,11 +110,11 @@
               </div>
             </div>
           </div>
-<<<<<<< HEAD
+{{-- <<<<<<< HEAD
 
 =======
-  
->>>>>>> a5fc8261a949260b033c01e86f711a0465cfdbc3
+
+>>>>>>> a5fc8261a949260b033c01e86f711a0465cfdbc3 --}}
         </div>
       </div>
 
@@ -124,11 +124,11 @@
           <!-- Card Header - Dropdown -->
           <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
             <h6 class="m-0 font-weight-bold text-primary">Daftar 100 Kantor Pegadaian</h6>
-<<<<<<< HEAD
+{{-- <<<<<<< HEAD
 
 =======
-            
->>>>>>> a5fc8261a949260b033c01e86f711a0465cfdbc3
+
+>>>>>>> a5fc8261a949260b033c01e86f711a0465cfdbc3 --}}
           </div>
           <!-- Card Body -->
           <div class="card-body">
@@ -146,12 +146,10 @@
         </div>
       </div>
     </div>
-<<<<<<< HEAD
+
 </div>
 @endsection
-=======
 
-   
-  </div>
-@endsection
->>>>>>> a5fc8261a949260b033c01e86f711a0465cfdbc3
+
+
+

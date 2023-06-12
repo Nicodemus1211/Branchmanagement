@@ -33,11 +33,7 @@
                       </div>
                     </div>
                     <a href="index" class="btn btn-primary btn-user btn-block"> Login </a>
-<<<<<<< HEAD
-                    <a href="index" class="btn btn-google btn-user btn-block"> <i class="fab fa-google fa-fw"></i> Login with Google </a>
-                    <a href="index" class="btn btn-facebook btn-user btn-block"> <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook </a>
-                  </form>
-=======
+
                     {{-- <a href="index.html" class="btn btn-google btn-user btn-block"> <i class="fab fa-google fa-fw"></i> Login with Google </a>
                     <a href="index.html" class="btn btn-facebook btn-user btn-block"> <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook </a> --}}
                   </form>
@@ -47,7 +43,7 @@
                   <div class="text-center">
                     <a class="small" href="register.html">Create an Account!</a>
                   </div> --}}
->>>>>>> a5fc8261a949260b033c01e86f711a0465cfdbc3
+
                 </div>
               </div>
             </div>
@@ -55,10 +51,7 @@
         </div>
       </div>
     </div>
-<<<<<<< HEAD
+
 </div>
 @endsection
-=======
-  </div>
-@endsection
->>>>>>> a5fc8261a949260b033c01e86f711a0465cfdbc3
+

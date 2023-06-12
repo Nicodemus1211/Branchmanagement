@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\SignInController;
 use App\Http\Controllers\IndexController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductemasController;
@@ -11,6 +12,7 @@ use App\Http\Controllers\loginController;
 use App\Http\Controllers\ProductGEmasController;
 use App\Http\Controllers\FormKantorController;
 use App\Http\Controllers\FormProdukcontroller;
+use App\Http\Controllers\Formproductcontroller;
 use App\Http\Controllers\TentangKamiController;
 use App\Http\Controllers\CPcisalakController;
 use App\Http\Controllers\CPdepokController;
@@ -38,6 +40,8 @@ use App\Http\Controllers\UPCsukamajuController;
 use App\Http\Controllers\UPCtaposController;
 use App\Http\Controllers\DaftarKantorController;
 use App\Http\Controllers\TableadminController;
+use App\Http\Controllers\TableProductController;
+use App\Http\Controllers\DaftarProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -62,8 +66,11 @@ Route::get('/ProductupcJakarta', [ProductUPCjakartaController::class, 'Productup
 Route::get('/ProductcpDepok', [ProductCPdepokController::class, 'ProductcpDepok'])->name('ProductcpDepok');
 Route::get('/CPbojongsari', [CPbojongsariController::class, 'cpbojongsari'])->name('cpbojongsari');
 Route::get('/ProdukGEmas', [ProductGEmasController::class, 'productgadaiemas'])->name('productgadaiemas');
+
 Route::get('/FormKantor', [FormKantorController::class, 'formkantor'])->name('formkantor');
-Route::get('/FormProduk', [FormProdukController::class, 'fromproduk'])->name('fromrproduk');
+Route::get('/FormProduk', [FormProdukcontroller::class, 'formproduk'])->name('formproduk');
+Route::get('/Formproduct', [FormproductController::class, 'Formproduct'])->name('Formproduct');
+
 Route::get('/tentangkami', [TentangKamiController::class, 'tentangkami'])->name('tentangkami');
 Route::get('/cpcisalak', [CPcisalakController::class, 'cpcisalak'])->name('cpcisalak');
 Route::get('/cpdepok', [CPdepokController::class, 'cpdepok'])->name('cpdepok');
@@ -91,3 +98,6 @@ Route::get('/upcsukamaju', [UPCsukamajuController::class, 'upcsukamaju'])->name(
 Route::get('/upctapos', [UPCtaposController::class, 'upctapos'])->name('upctapos');
 Route::get('/daftarkantor', [DaftarKantorController::class, 'daftarkantor'])->name('daftarkantor');
 Route::get('/tableadmin', [TableadminController::class, 'tableadmin'])->name('tableadmin');
+Route::get('/login', [SignInController::class, 'login'])->name('login');
+Route::get('/daftarproduct', [DaftarProductController::class, 'daftarproduct'])->name('daftarproduct');
+Route::get('/tableproduct', [TableProductController::class, 'tableproduct'])->name('tableproduct');

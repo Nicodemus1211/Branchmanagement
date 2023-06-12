@@ -12,6 +12,21 @@
     <div class="container">
         <h2 class="text-green text-center">Which one do you want to see ?</h2>
         <h1 CLASS="Text-green text-center">KANTOR</h1>
+        <div class="card-header">
+            <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                <div class="input-group">
+                  <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" />
+                  <div class="input-group-append">
+                    <button class="btn btn-primary" type="button">
+                      <i class="fas fa-search fa-sm"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            <a href="{{ route('tableadmin') }}" class="btn btn-sm btn-primary" style="float: right">
+                Tambah Data
+            </a>
+        </div>
         <div class="collection-content">
             <div class="row d-flex">
                 <div class="col-lg-3 col-md-4 col-sm-2">

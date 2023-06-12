@@ -15,21 +15,31 @@
     <li class="nav-item active">
       <a class="nav-link" href="index">
         <i class="fas fa-fw fa-tachometer-alt"></i>
-        <span>Dashboard</span></a
-      >
+        <span>Dashboard</span></a>
     </li>
+
 
     <!-- Divider -->
     <hr class="sidebar-divider" />
-
+    <li class="nav-item active">
+        <a class="nav-link" href="daftarkantor">
+          <i class="fas fa-fw fab fa-building"></i>
+          <span>Kantor</span></a>
+      </li>
+      <li class="nav-item active">
+          <a class="nav-link" href="daftarproduct">
+            <i class="fas fa-fw fab fa-shopping-cart"></i>
+            <span>Produk</span></a>
+        </li>
     <!-- Nav Item - Utilities Collapse Menu -->
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+    {{-- <li class="nav-item">
+      <a class="nav-link collapsed" href="{{url('daftarproduct')}}" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
         <i class="fas fa-fw fa-folder"></i>
         <span>Produk</span>
       </a>
       <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
+
           <h6 class="collapse-header">Best Product :</h6>
           <a class="collapse-item" href="">Gadai Emas</a>
           <a class="collapse-item" href="">Gadai non Emas</a>
@@ -37,18 +47,18 @@
           <a class="collapse-item" href="">Tabungan Emas</a>
         </div>
       </div>
-    </li>
+    </li> --}}
 
     <!-- Divider -->
     <hr class="sidebar-divider" />
 
         <!-- Nav Item - Tables -->
         <li class="nav-item">
-<<<<<<< HEAD
+{{-- <<<<<<< HEAD --}}
           <a class="nav-link" href="{{route('tableadmin')}}">
-=======
-          <a class="nav-link" href="">
->>>>>>> a5fc8261a949260b033c01e86f711a0465cfdbc3
+{{-- ======= --}}
+
+{{-- >>>>>>> a5fc8261a949260b033c01e86f711a0465cfdbc3 --}}
             <i class="fas fa-fw fa-table"></i>
             <span>Tables</span></a
           >
@@ -70,11 +80,11 @@
     <div class="text-center d-none d-md-inline">
       <button class="rounded-circle border-0" id="sidebarToggle"></button>
     </div>
-
+{{--
 <<<<<<< HEAD
 
-=======
-    
->>>>>>> a5fc8261a949260b033c01e86f711a0465cfdbc3
+{{-- ======= --}}
+
+{{-- >>>>>>> a5fc8261a949260b033c01e86f711a0465cfdbc3 --}}
   </ul>
   <!-- End of Sidebar -->

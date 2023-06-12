@@ -16,15 +16,14 @@
         <button>Browser File</button>
         <input type="file"hidden>
     </div>
-
-    <div class="mb-3 mt-4">
-      <label for="exampleInputkodeproduk" class="form-label" placeholder = "Kode Produk"></label>
-      <input type="text" class="form-control" id="exampleInputkodeproduk" aria-describedby="kodeProduk">
-    </div>
     <div class="mb-3">
       <label for="exampleInputnamaproduk" class="form-label">Nama Produk</label>
       <input type="text" class="form-control" id="exampleInputnamaproduk">
     </div>
+    <div class="mb-3">
+        <label for="exampleInputnamaproduk" class="form-label">Detail Produk</label>
+        <input type="text" class="form-control" id="exampleInputnamaproduk">
+      </div>
      <div class="mb-3">
                                 <label class="form-label">Tanggal Di Tambahkan</label>
                                 <input type="date" class="form-control  @error('tgl_ditambah') is-invalid @enderror"

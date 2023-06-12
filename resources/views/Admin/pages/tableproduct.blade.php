@@ -1,14 +1,14 @@
 @extends('Admin/layout/Admin')
 
 @section('title')
-    Pegadaian - Daftar Kantor
+    Pegadaian - Product
 @endsection
 
 @section('content')
 <div class="container-fluid">
 
     <!-- Page Heading -->
-    <h1 class="h3 mb-2 text-gray-800">Tabel Kantor
+    <h1 class="h3 mb-2 text-gray-800">Tabel product
     </h1>
     <!-- DataTales Example -->
     <div class="card shadow mb-4">
@@ -28,7 +28,7 @@
                       </div>
                     </div>
                   </form>
-                <a href="{{ route('formkantor') }}" class="btn btn-sm btn-primary" style="float: right">
+                <a href="{{ route('formproduk') }}" class="btn btn-sm btn-primary" style="float: right">
                     Tambah Data
                 </a>
             </div>
@@ -38,14 +38,41 @@
                     <thead>
                         <tr>
                             <th>Image</th>
-                            <th>Name Kantor</th>
-                            <th>No Telp</th>
-                            <th>No Handphone</th>
-                            <th>Alamat</th>
+                            <th>Name Product</th>
+                            <th>Detail Product</th>
+                            <th>Tanggal Di tambahkan</th>
+                            <th>Update by</th>
                             <th>Action</th>
+
                         </tr>
                     </thead>
                     <tbody>
+
+                        <tr>
+                            <td></td>
+                            <td>depok</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                            <td>
+                                {{-- <form action="{{ route() }}" method="post">
+                                    @csrf
+                                    @method('delete') --}}
+                                    <a
+                                        class="btn btn-sm btn-outline-success">
+                                        Edit
+                                    </a> |
+                                    <a
+                                        class="btn btn-sm btn-outline-warning">
+                                        Show
+                                    </a> |
+                                    <button type="submit" class="btn btn-sm btn-outline-danger"
+                                        onclick="return confirm('Apakah Anda Yakin?')">Delete
+                                    </button>
+                                {{-- </form> --}}
+                            </td>
+                        </tr>
 
                         <tr>
                             <td></td>
@@ -69,10 +96,71 @@
 
                         <tr>
                             <td></td>
-                            <td>depok</td>
                             <td></td>
                             <td></td>
                             <td></td>
+                            <td></td>
+                            <td>  <a
+                                class="btn btn-sm btn-outline-success">
+                                Edit
+                            </a> |
+                            <a
+                                class="btn btn-sm btn-outline-warning">
+                                Show
+                            </a> |
+                            <button type="submit" class="btn btn-sm btn-outline-danger"
+                                onclick="return confirm('Apakah Anda Yakin?')">Delete
+                            </button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td>bojongsari</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>  <a
+                                class="btn btn-sm btn-outline-success">
+                                Edit
+                            </a> |
+                            <a
+                                class="btn btn-sm btn-outline-warning">
+                                Show
+                            </a> |
+                            <button type="submit" class="btn btn-sm btn-outline-danger"
+                                onclick="return confirm('Apakah Anda Yakin?')">Delete
+                            </button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>  <a
+                                class="btn btn-sm btn-outline-success">
+                                Edit
+                            </a> |
+                            <a
+                                class="btn btn-sm btn-outline-warning">
+                                Show
+                            </a> |
+                            <button type="submit" class="btn btn-sm btn-outline-danger"
+                                onclick="return confirm('Apakah Anda Yakin?')">Delete
+                            </button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
                             <td>  <a
                                 class="btn btn-sm btn-outline-success">
                                 Edit
@@ -187,65 +275,11 @@
                             </td>
                         </tr>
 
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td>  <a
-                                class="btn btn-sm btn-outline-success">
-                                Edit
-                            </a> |
-                            <a
-                                class="btn btn-sm btn-outline-warning">
-                                Show
-                            </a> |
-                            <button type="submit" class="btn btn-sm btn-outline-danger"
-                                onclick="return confirm('Apakah Anda Yakin?')">Delete
-                            </button>
-                            </td>
-                        </tr>
 
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td>  <a
-                                class="btn btn-sm btn-outline-success">
-                                Edit
-                            </a> |
-                            <a
-                                class="btn btn-sm btn-outline-warning">
-                                Show
-                            </a> |
-                            <button type="submit" class="btn btn-sm btn-outline-danger"
-                                onclick="return confirm('Apakah Anda Yakin?')">Delete
-                            </button>
-                            </td>
-                        </tr>
 
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td>  <a
-                                class="btn btn-sm btn-outline-success">
-                                Edit
-                            </a> |
-                            <a
-                                class="btn btn-sm btn-outline-warning">
-                                Show
-                            </a> |
-                            <button type="submit" class="btn btn-sm btn-outline-danger"
-                                onclick="return confirm('Apakah Anda Yakin?')">Delete
-                            </button>
-                            </td>
-                        </tr>
+
+
+
 
 
                     </tbody>
